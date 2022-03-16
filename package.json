@@ -1,0 +1,15 @@
+{
+  "name": "appointment-poller",
+  "version": "1.0.0",
+  "description": "Polls the bupa visa medical services site for new appointments",
+  "main": "index.js",
+  "author": "Mario Maradiaga",
+  "license": "MIT",
+  "scripts": {
+    "start": "testcafe chrome index.js --selector-timeout 30000 --retry-test-pages"
+  },
+  "dependencies": {
+    "nodemailer": "^6.5.0",
+    "testcafe": "^1.13.0"
+  }
+}

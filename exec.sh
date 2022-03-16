@@ -1,0 +1,1 @@
+/Users/mmaradiaga/repos/appointment-poller/node_modules/.bin/testcafe "chrome:headless" /Users/mmaradiaga/repos/appointment-poller/index.js --selector-timeout 30000
