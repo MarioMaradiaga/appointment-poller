@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.mmaradiaga.appointmentpoller</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/mmaradiaga/repos/appointment-poller/stderr.log</string>
+    <key>StandardOutPath</key>
+    <string>/Users/mmaradiaga/repos/appointment-poller/stdout.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PATH</key>
+      <string><![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]></string>
+    </dict>
+    <key>ProgramArguments</key>
+    <array>
+        <string>sh</string>
+        <string>/Users/mmaradiaga/repos/appointment-poller/exec.sh</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>60</integer>
+</dict>
+</plist>
